@@ -20,7 +20,7 @@ function initMap() {
   const marker = new google.maps.Marker({
     position: voodooPoint,
     map: map,
-    icon: '/img/marker.svg',
+    icon: '../img/marker.svg',
   });
 
   const coordInfoWindow = new google.maps.InfoWindow();
