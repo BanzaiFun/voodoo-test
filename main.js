@@ -24,7 +24,10 @@ selects.forEach(select => {
 document.addEventListener('click', (e) => {
   const selectsList = document.querySelectorAll('.select__body');
 
-  if (e.target.className !== 'select__header' && e.target.className !== 'select__current') {
+
+
+  if (e.target.className !== 'select__header'
+    && e.target.className !== 'select__current') {
     selectsList.forEach(select => {
       select.classList.remove('is-active');
     });
