@@ -20,7 +20,7 @@ function initMap() {
   const marker = new google.maps.Marker({
     position: voodooPoint,
     map: map,
-    icon: '../img/marker.svg',
+    icon: 'img/marker40.png',
   });
 
   const coordInfoWindow = new google.maps.InfoWindow();
@@ -46,8 +46,8 @@ function createInfoWindowContent() {
     "137 Glasgow St., Unit 115",
     "Kitchener, ON N2G 4X8",
     "Ukraine",
-    "1-800-480-9597",
-    "info@voodoo.com",
+    "<img src='img/phone.png'>&nbsp&nbsp 1-800-480-9597",
+    "<img src='img/email.png'>&nbsp&nbsp info@voodoo.com",
   ].join("<br>");
 }
 
